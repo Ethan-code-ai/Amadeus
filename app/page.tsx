@@ -23,7 +23,7 @@ const suggestions = [
   "分析一个问题并给出可执行建议",
 ];
 
-const RAW_MODE_COMMAND = "EL PSY KONGROO";
+const MODE_TOGGLE_COMMAND = "EL PSY KONGROO";
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
@@ -67,7 +67,7 @@ export default function Home() {
       { role: "user", content: clean },
     ];
     const unlocksRawMode =
-      clean.replace(/\s+/g, " ").toUpperCase() === RAW_MODE_COMMAND;
+      clean.replace(/\s+/g, " ").toUpperCase() === MODE_TOGGLE_COMMAND;
     const nextRawMode = unlocksRawMode ? !rawMode : rawMode;
     setMessages(nextMessages);
     setRawMode(nextRawMode);
@@ -214,7 +214,7 @@ export default function Home() {
 
           <div className="profile-stats">
             <div><span>ENTITY</span><b>KURISU</b></div>
-            <div><span>MODE</span><b>ASSISTANT</b></div>
+            <div><span>MODE</span><b>{rawMode ? "RAW" : "PERSONA"}</b></div>
             <div><span>VOICE</span><b>{voiceOn ? "ACTIVE" : "MUTED"}</b></div>
           </div>
         </section>

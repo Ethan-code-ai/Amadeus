@@ -7,6 +7,9 @@
   },
   "scripts": {
     "dev": "vinext dev",
+    "local": "node scripts/local-server.mjs start",
+    "local:stop": "node scripts/local-server.mjs stop",
+    "local:status": "node scripts/local-server.mjs status",
     "build": "vinext build",
     "start": "vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",

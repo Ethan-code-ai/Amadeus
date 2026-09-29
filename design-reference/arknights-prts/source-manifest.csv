@@ -1,0 +1,15 @@
+asset_id,source_path,source_page,intended_use,rights_status,derivative_path,reviewer,reviewed_at,notes
+ak-20260915-zhuying,https://ak.hypergryph.com/news/2819,2026-09-15,活动节点/签到/主题名片信息层级,reference-only,,codex,2026-09-20,不下载页面图片；提炼状态组件
+ak-20260904-yuexing,https://ak.hypergryph.com/news/4923,2026-09-04,多渠道主题复用与卡片裁切,reference-only,,codex,2026-09-20,仅保存公开链接和设计观察
+ak-20260718-devcomm67,https://ak.hypergryph.com/news/9684,2026-07-18,通讯节点/版本预告/时间戳,reference-only,,codex,2026-09-20,不复制公告文案
+ak-20260612-monster-hunter-01,https://ak.hypergryph.com/news/9699,2026-06-12,任务板/工坊/分段开放,reference-only,,codex,2026-09-20,联动素材仅作结构参考
+ak-20260526-monster-hunter-02,https://ak.hypergryph.com/news/0701,2026-05-26,猎人笔记/任务状态/主题家具,reference-only,,codex,2026-09-20,不使用角色图与 Logo
+ak-20260425-anniversary7,https://ak.hypergryph.com/news/3046,2026-04-25,重构主题/共享终端/采购平台,reference-only,,codex,2026-09-20,不是唯一参考来源
+ak-202601-artbook-vol4,https://ak.hypergryph.com/corrigendum/artworks-vol4,2026-01,设定集版本记录与勘误结构,reference-only,,codex,2026-09-20,仅观察元数据排版
+ak-20251101-thanks,https://ak.hypergryph.com/news/2830,2025-11-01,多段庆典/研发部/观测站/主题场景,reference-only,,codex,2026-09-20,不复制活动图片
+ak-20250624-devcomm54,https://ak.hypergryph.com/news/6279,2025-06-24,故事集/联动/家具/时装节点,reference-only,,codex,2026-09-20,用于节点组件拆解
+ak-20250424-babel,https://ak.hypergryph.com/news/7397,2025-04-24,可切换名片主题与长期复用,reference-only,,codex,2026-09-20,用于世界线主题皮肤的交互模型
+ak-yostar-pv100,https://yostar-pictures.co.jp/works/detail/3053/?lang=en,ongoing,动画宣传的色彩/背景/摄影层,reference-only,,codex,2026-09-20,不使用 PV 截图
+akds-prts-design,https://github.com/MooncellWiki/prts-design,ongoing,公开社区 token/组件分层对照,study-only,,codex,2026-09-20,非官方；不得声称官方设计系统
+amadeus-originals,D:\Amadeus\design-reference\approved,local,Amadeus 原有 Logo/锈蚀材质基线,project-original,design-reference/approved,project,2026-09-20,保留原版；不被 PRTS 覆盖
+rhodes-island-user-logo,C:\Users\lenovo\AppData\Local\Temp\codex-clipboard-599262e7-46d2-40e9-8d09-9deee617a622.png,2026-09-20,PRTS 本地原型登录页与主界面标志,private-prototype-unverified,experiments/prts-v1/public/rhodes-island-user-supplied.png,user,2026-09-20,用户提供的罗德岛官方 Logo；不得公开部署或再分发

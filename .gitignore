@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+**/node_modules/
 /.pnp
 .pnp.*
 .yarn/*
@@ -38,8 +39,29 @@ yarn-error.log*
 # typescript
 next-env.d.ts
 /dist/
+**/dist/
+**/build/
+**/.next/
+**/.vinext/
 /.wrangler/
+**/.wrangler/
+**/.openai/hosting.json
+**/.git-standalone-backup-*/
 /outputs/
 /work/
 /.npm-cache/
 /.dev-server*.log
+/.local-server.pid
+/.local-server.out.log
+/.local-server.err.log
+
+# local copyrighted research material (keep only the catalog trackable)
+/material/**
+!/material/README.md
+
+# large local exports / unreleased working assets
+*.zip
+/live2d-assets-v1/
+/live2d-psd/
+/releases/
+**/public/rhodes-island-user-supplied.png
